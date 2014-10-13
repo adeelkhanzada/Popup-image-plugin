@@ -1,0 +1,59 @@
+/*
+Theme Name: Popup Image
+Theme URI: http://webgenius.zxq.net/
+Author: Adeel Khanzada
+Author URI: http://webgenius.zxq.net/
+Description: Custom wordpress theme.
+Version: 1.0
+*/
+
+.back {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	opacity: 0.7;
+	z-index: 99999;
+	cursor: pointer;
+	background:url(../images/Backgroud.png) repeat;
+}
+#popup-box {
+	display: none;
+	z-index: 999999;
+	opacity: 1;
+	background-color: #fff;
+	border-radius: 15px;
+	color: #000;
+	padding: 15px;
+	min-width: 400px;
+	min-height: 180px;
+	max-width: 100%;
+	position:fixed;
+	border: 5px #333 solid;
+	margin: auto;
+	-webkit-box-shadow: -2px -2px 17px 7px rgba(255,255,255,0.19);
+	-moz-box-shadow: -2px -2px 17px 7px rgba(255,255,255,0.19);
+	box-shadow: -2px -2px 17px 7px rgba(255,255,255,0.19);
+	left: 27%;
+	top:25%;
+}
+.closepopup {
+	font-weight: bold;
+	font-size: 16px;
+	float: right;
+	background: none;
+	border: 0px;
+	cursor: pointer;
+	position: absolute;
+	top: -12px;
+	text-indent:70px;
+	overflow:hidden;
+	width:29px;
+	height:29px;
+	background:url(../images/close.png) no-repeat;
+	right: -10px;
+}
+#popup-box img {
+	max-width: 100%;
+}
