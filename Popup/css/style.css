@@ -19,6 +19,7 @@ Version: 1.0
 	background:url(../images/Backgroud.png) repeat;
 }
 #popup-box {
+	top:275px;
 	display: none;
 	z-index: 999999;
 	opacity: 1;
